@@ -72,6 +72,13 @@ public class Janela extends JFrame {
 		strPares.deleteCharAt(strPares.length()-1);
 		pg_pares.setText(strPares.toString());
 	}
+	
+	private void limpa(){
+		pares.clear();
+		impares.clear();
+		strImpares = new StringBuilder();
+		strPares = new StringBuilder();
+	}
 
 	/**
 	 * Launch the application.
@@ -137,6 +144,7 @@ public class Janela extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
+				if (!impares.isEmpty()) limpa();
 				popula(Integer.parseInt(pg_inicial.getText()), Integer.parseInt(pg_final.getText()));
 				pack();
 			}
@@ -180,6 +188,7 @@ public class Janela extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
+				limpa();
 				pg_inicial.setText("1");
 				pg_final.setText("");
 				pg_impares.setText("");
