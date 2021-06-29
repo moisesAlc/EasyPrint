@@ -2,7 +2,7 @@
 
 ## Como usar
 
-O programa é o arquivo Páginas.jar. (se ele não executar, execute o jarfix primeiro, depois funcionará, basta ter o java instalado)
+O programa é o arquivo Paginas.jar. (se ele não executar, execute o jarfix primeiro, depois funcionará, basta ter o java instalado)
 
 ![](resumo.gif)
 
