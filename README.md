@@ -1,4 +1,4 @@
-# Paginas-impares-e-pares
+# Easy Print
 
 ## 💻 Projeto
 
