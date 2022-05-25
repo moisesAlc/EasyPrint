@@ -1,5 +1,9 @@
 # Paginas-impares-e-pares
 
+## 💻 Projeto
+
+Já tentou imprimir e não conseguiu ver a opção de escolher somente as pares ou ímpares? Esse programa resolve isso.
+
 ## Como usar
 
 O programa é o arquivo Paginas.jar. (se ele não executar, execute o jarfix primeiro, depois funcionará, basta ter o java instalado)
